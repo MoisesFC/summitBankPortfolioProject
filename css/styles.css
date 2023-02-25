@@ -1,6 +1,11 @@
 .navbar {
-    background-color: #38B6FF;
+  background-color: #38B6FF;
 }
- .navbar .navbar-brand {
-    padding: 0px;
-  }
+
+.navbar .navbar-brand {
+  padding: 0px;
+}
+
+.container-fluid{
+  padding: 0 !important;
+}
