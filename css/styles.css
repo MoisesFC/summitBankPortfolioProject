@@ -1,12 +1,19 @@
 .navbar {
   background-image: linear-gradient(to right, #38B6FF, rgb(0, 0, 0));
-  /* background-color: #38B6FF; */
 }
 
 .ml-button{
   margin-left: auto;
 }
 
+div.containerr{
+  text-align: center;
+}
+
+ul.myUL{
+  display: inline-block;
+  text-align: left;
+}
 #needHelp{
   color: white;
 }
@@ -206,7 +213,7 @@ footer.light .footer-copyright {
   color: #fff;
 }
 
-ul.social-footer2 {
+/* ul.social-footer2 {
   margin: 0;
   padding: 0;
   width: auto;
@@ -231,9 +238,9 @@ ul.social-footer2 li a {
 .btn {
   background-color: #38B6FF;
   color: #fff;
-}
+} */
 
-.btn:hover,
+/* .btn:hover,
 .btn:focus,
 .btn.active {
   background: #38B6FF;
@@ -249,4 +256,4 @@ ul.social-footer2 li a {
   -o-transition: all 250ms ease-in-out 0s;
   transition: all 250ms ease-in-out 0s;
 
-}
+} */
