@@ -1,6 +1,14 @@
 .navbar {
-  background-image: linear-gradient(to right, #38B6FF, #50bdfc, rgb(0, 0, 0));
+  background-image: linear-gradient(to right, #38B6FF, rgb(0, 0, 0));
   /* background-color: #38B6FF; */
+}
+
+.ml-button{
+  margin-left: auto;
+}
+
+#needHelp{
+  color: white;
 }
 
 .navbar .navbar-brand {
