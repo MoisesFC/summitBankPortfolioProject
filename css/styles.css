@@ -2,6 +2,7 @@
   background-image: linear-gradient(to right, #38B6FF, rgb(0, 0, 0));
 }
 
+
 .ml-button{
   margin-left: auto;
 }
@@ -16,6 +17,7 @@ ul.myUL{
 }
 #needHelp{
   color: white;
+  font-size: small;
 }
 
 .navbar .navbar-brand {
