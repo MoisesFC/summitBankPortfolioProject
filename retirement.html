@@ -98,54 +98,59 @@
                     This online retirement calculator can simplify the process by providing personalized estimates and
                     helping you make informed decisions about your retirement savings.</p>
                 <hr>
-                <label for="currentAge"><strong>Enter your current age</strong></label>
+                <label for="currentAgeInput"><strong>Enter your current age</strong></label>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="" aria-label="Username"
-                        aria-describedby="basic-addon1" id="currentAge">
+                    <input type="number" class="form-control" id="currentAgeInput" value="">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="currentAge">Years</span>
+                        <span class="input-group-text" id="currentAgeSpan">Years</span>
                     </div>
                 </div>
-                <label for="retirementAge"><strong>At what age are you planning to retire?</strong></label>
+                <label for="retirementAgeInput"><strong>At what age are you planning to retire?</strong></label>
                 <div class="input-group ">
-                    <input type="text" class="form-control" placeholder="" aria-label="Username"
-                        aria-describedby="basic-addon1" id="retirementAge">
+                    <input type="number" class="form-control" placeholder="" aria-label="Username"
+                        aria-describedby="basic-addon1" id="retirementAgeInput">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="retirementAge">Years</span>
                     </div>
                     <p>If you were born in 1960 or later, 67 years old is the age at which you can retire with full
                         benefits.</p>
                 </div>
-                <label for="curretnSavings"><strong>Current amount saved for retirement</strong></label>
+                <label for="currentSavingsInput"><strong>Current amount saved for retirement</strong></label>
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="curretnSavings">$</span>
+                        <span class="input-group-text" id="currentSavings">$</span>
                     </div>
                     <input type="text" class="form-control" placeholder="" aria-label="Username"
-                        aria-describedby="basic-addon1" id="curretnSavings">
+                        aria-describedby="basic-addon1" id="currentSavingsInput">
                 </div>
-                <label for="contributions"><strong>What will be your monthly contributions?</strong></label>
+                <label for="contributionsInput"><strong>What will be your monthly contributions?</strong></label>
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="contributions">$</span>
                     </div>
                     <input type="text" class="form-control" placeholder="" aria-label="Username"
-                        aria-describedby="basic-addon1" id="contributions">
+                        aria-describedby="basic-addon1" id="contributionsInput">
                 </div>
-                <label for="rateOfReturn"><strong>Expected anual rate of return</strong></label>
+                <label for="rateOfReturnInput"><strong>Expected anual rate of return</strong></label>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="" aria-label="Username"
-                        aria-describedby="basic-addon1" id="rateOfReturn">
+                        aria-describedby="basic-addon1" id="rateOfReturnInput">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="rateOfReturn">%</span>
                     </div>
                     <p>Historically, the 30-year return of
                         the S&P 500 has been roughly 10-12%</p>
                 </div>
-                <button class="btn btn-primary">Evaluate</button>
-                <div class="mt-4">
-                    <h3 id="evualuationResults"></h3>
+                <button class="btn btn-primary" id="evaluateBtn">Evaluate</button>
+                <div class="mt-4 d-none" id="resultsCard">
+                <div class="card m-auto">
+                    <div class="card-body" id="evualuationResults">
+                    </div>
+                  </div>
                 </div>
+                <!-- <div class="mt-4">
+                    <h4 id="evualuationResults"></h4>
+                </div> -->
             </div>
             <div class="col-md-7 m-auto d-none d-md-block">
                 <img class="card-img-top" src="img/james-hose-jr-6D58t6uZT5M-unsplash.jpg" alt="">
@@ -258,6 +263,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 
