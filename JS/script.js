@@ -17,18 +17,7 @@ function evaluateRetirement() {
     const finalWithCommas = totalReturns.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
 
     resultCard.classList.remove(`d-none`);
-
     document.getElementById(`evualuationResults`).innerHTML = `In ${years} years, your potential retirement savings could be worth <strong> $${finalWithCommas} </strong>`;
 
-    console.log(`
-          currentAge ${currentAge} 
-          retirementAge ${retiremtnAge} 
-          currentSavings ${currentSavings}
-          monthlyContributions ${monthlyContributions}
-          rateOfReturn ${rateOfReturn}
-          years ${years}
-          currentSAvingsReturn ${currentSavingsReturn}
-          contributionsReturn ${contrubutionsReturn}
-          total ${totalReturns}`);
 }
 
