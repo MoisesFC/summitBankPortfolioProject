@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/MoisesFC/summitBankPortfolioProject#readme",
   "devDependencies": {
+    "firebase": "^10.1.0",
+    "firebase-tools": "^12.4.6",
     "lite-server": "^2.6.1"
   },
   "dependencies": {
